@@ -1,6 +1,6 @@
 ## Creted By Ziddi Hacker 2
 
-Please install Requirements Tools
+# Please install Requirements Tools
 
 sudo apt install tshark
 
@@ -8,15 +8,15 @@ sudo apt install sox
 
 sudo apt install lolcat
 
-Run:
+#  Run:
 
 chmod 777 pcap2wav
 
 ./pcap2wav
 
-Usage:
+# Usage:
 
-  pcap2wav [opts] filename.pcap [target filename]
+  ./pcap2wav [options] filename.pcap [target filename]
   
 
 Script attempts to create a few files: a .<codec> file and a .wav file for each RTP stream
@@ -45,4 +45,4 @@ Supported options:
                                by putting the wav files into a .tgz file and then removing
                                
                                the .wav and .<codec> files from the disk.
-Credit By Ziddi Hacker 2
+# Credit By Ziddi Hacker 2
